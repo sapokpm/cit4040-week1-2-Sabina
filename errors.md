@@ -21,3 +21,53 @@ public class Main {
         }
 }
 ```
+
+## error 2
+File: Main.java
+
+Code:
+```java
+System.out.printline("Hello, backend!");
+```
+
+Error message:
+```
+Main.java:3: error: cannot find symbol
+        System.out.printline("Hello, backend!");
+                  ^
+  symbol:   method printline(String)
+  location: variable out of type PrintStream
+```
+
+Cause:
+Misspelled the method name — `printline` instead of `println`.
+
+Fix:
+```java
+System.out.println("Hello, backend!");
+```
+
+## error 3
+File: Main.java
+
+Code:
+```java
+public class Application {
+    public static void main(String[] args) {
+        System.out.println("Hello, backend!");
+    }
+}
+```
+
+Error message:
+```
+Main.java:1: error: class Application is public, should be declared in a file named Application.java
+public class Application {
+       ^
+```
+
+Cause:
+Renamed the class to `Application`, but the file is still named `Main.java`. Java requires a public class name to match its file name exactly.
+
+Fix:
+Either rename the class back to `Main` (to match `Main.java`), or rename the file to `Application.java` to match the class.
