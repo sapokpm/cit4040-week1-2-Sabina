@@ -3,3 +3,9 @@ Effective Java by Joshua Bloch, 412 pages, available: true
 The Pragmatic Programmer by David Thomas, 352 pages, available: true
 Java Concurrency in Practice by Brian Goetz, 208 pages, available: true
 Books with more than 300 pages: 3
+Stock for Clean Code: 5
+Java Concurrency in Practice: 2
+Clean Code: 5
+The Pragmatic Programmer: 7
+Effective Java: 3
+Total copies: 17
