@@ -7,6 +7,9 @@ public class Calculator {
         char sizeCode = 'M';
         double totalPrice = calculateTotal(price, stockQuantity);
         System.out.println ("Product: " + productName + ", Price: $" + price + ", Stock Quantity: " + stockQuantity + ", In Stock: " + inStock + ", Size Code: " + sizeCode + ", Total Price: $" + totalPrice);
+
+        String text = null;
+        System.out.println(text.length());
     }
 
     public static double calculateTotal(double price, int quantity) {

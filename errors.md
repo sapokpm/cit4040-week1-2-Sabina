@@ -71,3 +71,13 @@ Renamed the class to `Application`, but the file is still named `Main.java`. Jav
 
 Fix:
 Either rename the class back to `Main` (to match `Main.java`), or rename the file to `Application.java` to match the class.
+
+## Task 3.4 — NullPointerException
+File: Calculator.java
+
+Terminal output:
+```
+Product: Apple, Price: $0.99, Stock Quantity: 5, In Stock: true, Size Code: M, Total Price: $4.95
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "text" is null
+	at Calculator.main(Calculator.java:12)
+```
