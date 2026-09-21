@@ -47,3 +47,4 @@ public class Main1 {
         System.out.println("Total copies: " + total);
     }
 }
+
