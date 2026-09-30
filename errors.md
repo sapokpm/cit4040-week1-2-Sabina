@@ -81,3 +81,19 @@ Product: Apple, Price: $0.99, Stock Quantity: 5, In Stock: true, Size Code: M, T
 Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "text" is null
 	at Calculator.main(Calculator.java:12)
 ```
+# Errors Main2.java
+
+## Error 1: Missing semicolon
+[paste exact compiler message here]
+
+[your one sentence explanation]
+
+## Error 2: Misspelled method name
+[paste exact compiler message here]
+
+[your one sentence explanation]
+
+## Error 3: Variable used before it has a value
+[paste exact compiler message here]
+
+[your one sentence explanation]
