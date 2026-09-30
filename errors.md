@@ -84,16 +84,20 @@ Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String
 # Errors Main2.java
 
 ## Error 1: Missing semicolon
-[paste exact compiler message here]
-
-[your one sentence explanation]
+Main2.java:7: error: ';' expected
+        System.out.println("Hi, " + name)
 
 ## Error 2: Misspelled method name
-[paste exact compiler message here]
-
-[your one sentence explanation]
+Main2.java:7: error: cannot find symbol
+        System.out.printline("Hi, " + name);
+                  ^
+  symbol:   method printline(String)
+  location: variable out of type PrintStream
 
 ## Error 3: Variable used before it has a value
-[paste exact compiler message here]
-
-[your one sentence explanation]
+rror: unnamed classes are a preview feature and are disabled by default.
+String city;
+^
+  (use --enable-preview to enable unnamed classes)
+Main2.java:2: error: class, interface, enum, or record expected
+System.out.println("City: " + city);
